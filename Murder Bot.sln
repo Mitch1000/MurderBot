@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{AC95E2BA-8E31-4E99-5C75-08AB3D5E285B}") = "Murder Bot", "Assembly-CSharp-firstpass.csproj", "{FC7FB621-5471-6249-94AA-EA7BCEED506B}"
+EndProject
+Project("{AC95E2BA-8E31-4E99-5C75-08AB3D5E285B}") = "Murder Bot", "Assembly-CSharp.csproj", "{9B4FB525-E985-4517-4A3C-269D1E36CCDD}"
+EndProject
+Project("{AC95E2BA-8E31-4E99-5C75-08AB3D5E285B}") = "Murder Bot", "Assembly-CSharp-Editor.csproj", "{CA5A21C6-8BFF-6ADA-AC87-8DFAB0B365A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC7FB621-5471-6249-94AA-EA7BCEED506B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7FB621-5471-6249-94AA-EA7BCEED506B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7FB621-5471-6249-94AA-EA7BCEED506B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7FB621-5471-6249-94AA-EA7BCEED506B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4FB525-E985-4517-4A3C-269D1E36CCDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4FB525-E985-4517-4A3C-269D1E36CCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4FB525-E985-4517-4A3C-269D1E36CCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4FB525-E985-4517-4A3C-269D1E36CCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5A21C6-8BFF-6ADA-AC87-8DFAB0B365A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5A21C6-8BFF-6ADA-AC87-8DFAB0B365A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5A21C6-8BFF-6ADA-AC87-8DFAB0B365A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5A21C6-8BFF-6ADA-AC87-8DFAB0B365A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

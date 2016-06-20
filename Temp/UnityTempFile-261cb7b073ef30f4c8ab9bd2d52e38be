@@ -1,0 +1,245 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:Assets/Plugins/JelloPoly2Tri.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_3_4
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
+"Assets/C#Scripts/BackgroundCamera.cs"
+"Assets/C#Scripts/Boost.cs"
+"Assets/C#Scripts/Clouds.cs"
+"Assets/C#Scripts/CreateWood.cs"
+"Assets/C#Scripts/Darkness.cs"
+"Assets/C#Scripts/DistanceText.cs"
+"Assets/C#Scripts/FloatObject.cs"
+"Assets/C#Scripts/GameOver.cs"
+"Assets/C#Scripts/GameState.cs"
+"Assets/C#Scripts/Ground.cs"
+"Assets/C#Scripts/JellyCode/Bodies/JelloBody.cs"
+"Assets/C#Scripts/JellyCode/Bodies/JelloPressureBody.cs"
+"Assets/C#Scripts/JellyCode/Bodies/JelloSpringBody.cs"
+"Assets/C#Scripts/JellyCode/JelloAABB.cs"
+"Assets/C#Scripts/JellyCode/JelloAttachPoint.cs"
+"Assets/C#Scripts/JellyCode/JelloClosedShape.cs"
+"Assets/C#Scripts/JellyCode/JelloJoint.cs"
+"Assets/C#Scripts/JellyCode/JelloMathTools.cs"
+"Assets/C#Scripts/JellyCode/JelloPointMass.cs"
+"Assets/C#Scripts/JellyCode/JelloShapeTools.cs"
+"Assets/C#Scripts/JellyCode/JelloSpring.cs"
+"Assets/C#Scripts/JellyCode/JelloVectorTools.cs"
+"Assets/C#Scripts/JellyCode/JelloWorld.cs"
+"Assets/C#Scripts/JellyCode/MeshLink/MeshLink.cs"
+"Assets/C#Scripts/JellyCode/MeshLink/SpriteMeshLink.cs"
+"Assets/C#Scripts/JellyCode/MeshLink/TextureMeshLink.cs"
+"Assets/C#Scripts/Level1.cs"
+"Assets/C#Scripts/Level3.cs"
+"Assets/C#Scripts/LevelUnlocked.cs"
+"Assets/C#Scripts/MurderBotFeet.cs"
+"Assets/C#Scripts/OneJumpPlatform.cs"
+"Assets/C#Scripts/PanCamerasInandOut.cs"
+"Assets/C#Scripts/Play.cs"
+"Assets/C#Scripts/RepeatSpriteBoundary.cs"
+"Assets/C#Scripts/Scroll.cs"
+"Assets/C#Scripts/SmoothFollowCamera.cs"
+"Assets/C#Scripts/Spikes.cs"
+"Assets/C#Scripts/Star.cs"
+"Assets/C#Scripts/Sun.cs"
+"Assets/C#Scripts/Wall.cs"
+"Assets/C#Scripts/androidinput.cs"
+"Assets/C#Scripts/murderbotarmcontroller.cs"
+"Assets/C#Scripts/murderbotcontroller.cs"
+Assets/LiquidPhysics2D/API/LPAPIBody.cs
+Assets/LiquidPhysics2D/API/LPAPIContacts.cs
+Assets/LiquidPhysics2D/API/LPAPIFixture.cs
+Assets/LiquidPhysics2D/API/LPAPIJoint.cs
+Assets/LiquidPhysics2D/API/LPAPIParticleGroups.cs
+Assets/LiquidPhysics2D/API/LPAPIParticleSystems.cs
+Assets/LiquidPhysics2D/API/LPAPIParticles.cs
+Assets/LiquidPhysics2D/API/LPAPIRaycast.cs
+Assets/LiquidPhysics2D/API/LPAPIShape.cs
+Assets/LiquidPhysics2D/API/LPAPIUtility.cs
+Assets/LiquidPhysics2D/API/LPAPIWorld.cs
+Assets/LiquidPhysics2D/API/PolygonDecomposerAPI.cs
+Assets/LiquidPhysics2D/CircleTangents.cs
+Assets/LiquidPhysics2D/DataStructs/LPContact.cs
+Assets/LiquidPhysics2D/DataStructs/LPRayCastHit.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/AccelerateBody.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/AgeDrawer.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/BoxSpawner.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/ChangeAtRuntime.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Contactstester.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/DeleteOnBodyContact.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/DestroyWhenHit.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Dissolver.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/ExplodeonBodyContacts.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Follow.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/GoUpandDown.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Melter.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Mine.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/OilandWater.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/OilandWater2.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/RayCastTest.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Reactor.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/SetPoly.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Shooter.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Shotgun.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/StartStopAimer.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/StopAfterSeconds.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/TapToBounceParticleGroup.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/TestUserData.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/VelocityDrawer.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/Waterfall.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/WeightDrawer.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/spawnafterwait.cs
+Assets/LiquidPhysics2D/ExampleScenes/ExampleScenesScripts/sprinkler.cs
+Assets/LiquidPhysics2D/Fixtures/LPFixture.cs
+Assets/LiquidPhysics2D/Fixtures/LPFixtureBox.cs
+Assets/LiquidPhysics2D/Fixtures/LPFixtureChainShape.cs
+Assets/LiquidPhysics2D/Fixtures/LPFixtureCircle.cs
+Assets/LiquidPhysics2D/Fixtures/LPFixturePoly.cs
+Assets/LiquidPhysics2D/InputUtilities.cs
+Assets/LiquidPhysics2D/Joints/LPJoint.cs
+Assets/LiquidPhysics2D/Joints/LPJointDistance.cs
+Assets/LiquidPhysics2D/Joints/LPJointFriction.cs
+Assets/LiquidPhysics2D/Joints/LPJointGear.cs
+Assets/LiquidPhysics2D/Joints/LPJointMouse.cs
+Assets/LiquidPhysics2D/Joints/LPJointPrismatic.cs
+Assets/LiquidPhysics2D/Joints/LPJointPulley.cs
+Assets/LiquidPhysics2D/Joints/LPJointRevolute.cs
+Assets/LiquidPhysics2D/Joints/LPJointRope.cs
+Assets/LiquidPhysics2D/Joints/LPJointWeld.cs
+Assets/LiquidPhysics2D/Joints/LPJointWheel.cs
+Assets/LiquidPhysics2D/LPBody.cs
+Assets/LiquidPhysics2D/LPColors.cs
+Assets/LiquidPhysics2D/LPContactListener.cs
+Assets/LiquidPhysics2D/LPCorporeal.cs
+Assets/LiquidPhysics2D/LPEnums.cs
+Assets/LiquidPhysics2D/LPManager.cs
+Assets/LiquidPhysics2D/LPParticleGroupMaterial.cs
+Assets/LiquidPhysics2D/LPParticleMaterial.cs
+Assets/LiquidPhysics2D/LPParticleSystem.cs
+Assets/LiquidPhysics2D/LPThing.cs
+Assets/LiquidPhysics2D/ParticleDrawingScripts/FoamWeightDrawer.cs
+Assets/LiquidPhysics2D/ParticleDrawingScripts/LPDrawParticleSystem.cs
+Assets/LiquidPhysics2D/ParticleDrawingScripts/ThreeColorFoamWeightDrawer.cs
+Assets/LiquidPhysics2D/ParticleDrawingScripts/WeightAndColorDrawer.cs
+Assets/LiquidPhysics2D/Particles/LPParticleGroup.cs
+Assets/LiquidPhysics2D/Particles/LPParticleGroupBox.cs
+Assets/LiquidPhysics2D/Particles/LPParticleGroupCircle.cs
+Assets/LiquidPhysics2D/Particles/LPParticleGroupPoly.cs
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/DeleteBodyOnContact.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPAimer.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPBodyAccelerator.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPParticleAccelerator.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPParticleDestroyer.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPParticleSpawner.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPPrefabSpawner.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPRayCaster.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPSpawner.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/LPTarget.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/MouseJointTarget.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/RaycasterPoint.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/counter.cs"
+"Assets/LiquidPhysics2D/Prefabs/Prefab Scripts/countercolor.cs"
+Assets/LiquidPhysics2D/RoundedCornerShapes.cs
+Assets/LiquidPhysics2D/RoundedCornerShapesEditor.cs
+Assets/LiquidPhysics2D/Shapes/LPShapeCircle.cs
+Assets/LiquidPhysics2D/Shapes/LPShapeTools.cs
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/AttachMouseQueryToMouse.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/Button.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/CarCamPan.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/FPScounter.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/GoBetweenScenes.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/MouseQueryWorldForBody.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/MoveLadle.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/Movemanipulator.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/PartButton.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/TestBedManager.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/TouchManager.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/TrackParentCamera.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/sprayacid.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/tapmine.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/taptogglepump.cs"
+"Assets/LiquidPhysics2D/Testbed/Testbed scripts/taptogglespawner.cs"
+"Assets/Raving Bots/Scripts/Water2D/Water2DEffects.cs"
+"Assets/Raving Bots/Scripts/Water2D/Water2DMaterialScaler.cs"
+"Assets/Raving Bots/Scripts/Water2D/Water2DSplashFX.cs"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

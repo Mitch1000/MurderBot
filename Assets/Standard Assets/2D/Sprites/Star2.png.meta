@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: c19b9fd43b2865048b866ec4a1738282
+timeCreated: 1464475306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Star2_0
+    21300002: Star2_1
+    21300004: Star2_2
+    21300006: Star2_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Star2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 396
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 195, y: -50}
+        - {x: 185, y: -42}
+        - {x: 126, y: 7}
+        - {x: 103, y: 23}
+        - {x: 108, y: 37}
+        - {x: 145, y: 134}
+        - {x: 141, y: 141}
+        - {x: 136, y: 141}
+        - {x: 29, y: 100}
+        - {x: -46, y: 190}
+        - {x: -53, y: 190}
+        - {x: -56, y: 189}
+        - {x: -66, y: 119}
+        - {x: -72, y: 75}
+        - {x: -191, y: 52}
+        - {x: -193, y: 48}
+        - {x: -193, y: 39}
+        - {x: -125, y: -92}
+        - {x: -143, y: -140}
+        - {x: -141, y: -150}
+        - {x: -35, y: -109}
+        - {x: -28, y: -105}
+        - {x: 32, y: -186}
+        - {x: 50, y: -196}
+        - {x: 59, y: -196}
+        - {x: 74, y: -85}
+        - {x: 193, y: -58}
+        - {x: 195, y: -54}
+    - name: Star2_1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 0
+        width: 396
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: -177}
+        - {x: 109, y: -160}
+        - {x: 96, y: -59}
+        - {x: 198, y: -7}
+        - {x: 198, y: 4}
+        - {x: 96, y: 50}
+        - {x: 107, y: 147}
+        - {x: 104, y: 171}
+        - {x: 96, y: 171}
+        - {x: 94, y: 170}
+        - {x: 4, y: 104}
+        - {x: -91, y: 170}
+        - {x: -97, y: 171}
+        - {x: -101, y: 169}
+        - {x: -95, y: 105}
+        - {x: -88, y: 53}
+        - {x: -163, y: 17}
+        - {x: -197, y: 0}
+        - {x: -197, y: -7}
+        - {x: -196, y: -9}
+        - {x: -89, y: -56}
+        - {x: -90, y: -66}
+        - {x: -100, y: -176}
+        - {x: -98, y: -177}
+        - {x: -89, y: -177}
+        - {x: -5, y: -115}
+        - {x: 6, y: -112}
+        - {x: 97, y: -177}
+    - name: Star2_2
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 0
+        width: 396
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -91}
+        - {x: 119, y: -72}
+        - {x: 103, y: -31}
+        - {x: 141, y: -5}
+        - {x: 194, y: 47}
+        - {x: 194, y: 55}
+        - {x: 182, y: 57}
+        - {x: 76, y: 73}
+        - {x: 70, y: 115}
+        - {x: 55, y: 188}
+        - {x: 54, y: 191}
+        - {x: 50, y: 191}
+        - {x: 45, y: 189}
+        - {x: -25, y: 100}
+        - {x: -50, y: 110}
+        - {x: -121, y: 134}
+        - {x: -131, y: 141}
+        - {x: -147, y: 138}
+        - {x: -109, y: 20}
+        - {x: -193, y: -52}
+        - {x: -193, y: -60}
+        - {x: -54, y: -196}
+        - {x: -51, y: -197}
+        - {x: -44, y: -197}
+        - {x: 28, y: -107}
+        - {x: 72, y: -138}
+        - {x: 156, y: -147}
+      - - {x: -198, y: -5}
+        - {x: -195, y: -4}
+        - {x: -195, y: 0}
+        - {x: -197, y: 2}
+        - {x: -198, y: 2}
+    - name: Star2_3
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 396
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 173, y: -92}
+        - {x: 108, y: -1}
+        - {x: 173, y: 91}
+        - {x: 173, y: 99}
+        - {x: 172, y: 104}
+        - {x: 54, y: 89}
+        - {x: 3, y: 197}
+        - {x: -4, y: 197}
+        - {x: -55, y: 90}
+        - {x: -169, y: 100}
+        - {x: -173, y: 100}
+        - {x: -173, y: 91}
+        - {x: -161, y: 69}
+        - {x: -108, y: 2}
+        - {x: -122, y: -25}
+        - {x: -173, y: -99}
+        - {x: -173, y: -104}
+        - {x: -168, y: -106}
+        - {x: -151, y: -104}
+        - {x: -64, y: -97}
+        - {x: -54, y: -94}
+        - {x: -6, y: -198}
+        - {x: 8, y: -198}
+        - {x: 11, y: -197}
+        - {x: 53, y: -95}
+        - {x: 171, y: -105}
+        - {x: 173, y: -104}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

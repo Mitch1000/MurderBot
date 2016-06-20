@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9B4FB525-E985-4517-4A3C-269D1E36CCDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\C#Scripts\BackgroundCamera.cs" />
+     <Compile Include="Assets\C#Scripts\Boost.cs" />
+     <Compile Include="Assets\C#Scripts\Clouds.cs" />
+     <Compile Include="Assets\C#Scripts\CreateWood.cs" />
+     <Compile Include="Assets\C#Scripts\Darkness.cs" />
+     <Compile Include="Assets\C#Scripts\DistanceText.cs" />
+     <Compile Include="Assets\C#Scripts\FloatObject.cs" />
+     <Compile Include="Assets\C#Scripts\GameOver.cs" />
+     <Compile Include="Assets\C#Scripts\GameState.cs" />
+     <Compile Include="Assets\C#Scripts\Ground.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\Bodies\JelloBody.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\Bodies\JelloPressureBody.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\Bodies\JelloSpringBody.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloAABB.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloAttachPoint.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloClosedShape.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloJoint.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloMathTools.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloPointMass.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloShapeTools.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloSpring.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloVectorTools.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\JelloWorld.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\MeshLink\MeshLink.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\MeshLink\SpriteMeshLink.cs" />
+     <Compile Include="Assets\C#Scripts\JellyCode\MeshLink\TextureMeshLink.cs" />
+     <Compile Include="Assets\C#Scripts\Level1.cs" />
+     <Compile Include="Assets\C#Scripts\Level3.cs" />
+     <Compile Include="Assets\C#Scripts\LevelUnlocked.cs" />
+     <Compile Include="Assets\C#Scripts\MurderBotFeet.cs" />
+     <Compile Include="Assets\C#Scripts\OneJumpPlatform.cs" />
+     <Compile Include="Assets\C#Scripts\PanCamerasInandOut.cs" />
+     <Compile Include="Assets\C#Scripts\Play.cs" />
+     <Compile Include="Assets\C#Scripts\RepeatSpriteBoundary.cs" />
+     <Compile Include="Assets\C#Scripts\Scroll.cs" />
+     <Compile Include="Assets\C#Scripts\SmoothFollowCamera.cs" />
+     <Compile Include="Assets\C#Scripts\Spikes.cs" />
+     <Compile Include="Assets\C#Scripts\Star.cs" />
+     <Compile Include="Assets\C#Scripts\Sun.cs" />
+     <Compile Include="Assets\C#Scripts\Wall.cs" />
+     <Compile Include="Assets\C#Scripts\androidinput.cs" />
+     <Compile Include="Assets\C#Scripts\murderbotarmcontroller.cs" />
+     <Compile Include="Assets\C#Scripts\murderbotcontroller.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIContacts.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIFixture.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIJoint.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIParticleGroups.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIParticleSystems.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIParticles.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIRaycast.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIShape.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIUtility.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\LPAPIWorld.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\API\PolygonDecomposerAPI.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\CircleTangents.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\DataStructs\LPContact.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\DataStructs\LPRayCastHit.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\AccelerateBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\AgeDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\BoxSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\ChangeAtRuntime.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Contactstester.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\DeleteOnBodyContact.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\DestroyWhenHit.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Dissolver.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\ExplodeonBodyContacts.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Follow.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\GoUpandDown.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Melter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Mine.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\OilandWater.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\OilandWater2.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\RayCastTest.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Reactor.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\SetPoly.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Shooter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Shotgun.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\StartStopAimer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\StopAfterSeconds.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\TapToBounceParticleGroup.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\TestUserData.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\VelocityDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\Waterfall.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\WeightDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\spawnafterwait.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ExampleScenes\ExampleScenesScripts\sprinkler.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixture.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixtureBox.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixtureChainShape.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixtureCircle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Fixtures\LPFixturePoly.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\InputUtilities.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJoint.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointDistance.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointFriction.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointGear.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointMouse.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointPrismatic.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointPulley.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointRevolute.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointRope.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointWeld.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Joints\LPJointWheel.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPColors.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPContactListener.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPCorporeal.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPEnums.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPManager.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPParticleGroupMaterial.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPParticleMaterial.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPParticleSystem.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\LPThing.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\FoamWeightDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\LPDrawParticleSystem.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\ThreeColorFoamWeightDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\ParticleDrawingScripts\WeightAndColorDrawer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroup.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroupBox.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroupCircle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Particles\LPParticleGroupPoly.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\DeleteBodyOnContact.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPAimer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPBodyAccelerator.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPParticleAccelerator.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPParticleDestroyer.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPParticleSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPPrefabSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPRayCaster.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPSpawner.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\LPTarget.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\MouseJointTarget.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\RaycasterPoint.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\counter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Prefabs\Prefab Scripts\countercolor.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\RoundedCornerShapes.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\RoundedCornerShapesEditor.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Shapes\LPShapeCircle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Shapes\LPShapeTools.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\AttachMouseQueryToMouse.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\Button.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\CarCamPan.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\FPScounter.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\GoBetweenScenes.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\MouseQueryWorldForBody.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\MoveLadle.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\Movemanipulator.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\PartButton.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\TestBedManager.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\TouchManager.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\TrackParentCamera.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\sprayacid.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\tapmine.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\taptogglepump.cs" />
+     <Compile Include="Assets\LiquidPhysics2D\Testbed\Testbed scripts\taptogglespawner.cs" />
+     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DEffects.cs" />
+     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DMaterialScaler.cs" />
+     <Compile Include="Assets\Raving Bots\Scripts\Water2D\Water2DSplashFX.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\LiquidPhysics2D\Licenses\LiquidFun License.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\LiquidPhysics2D\Testbed\Testbed materials\Refraction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Raving Bots\Shaders\Water2D.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\LiquidPhysics2D\Documentation\LiquidPhysics2D_Documentation.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\LiquidPhysics2D\Art\Shaders\MetaballShader.shader" />
+     <None Include="Assets\LiquidPhysics2D\Testbed\Testbed materials\NormalMapFromHeight.shader" />
+     <None Include="Assets\LiquidPhysics2D\Licenses\Liquid Physics 2D License .txt" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Raving Bots\Shaders\Water 2D Waves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\C#Scripts\Bugs.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Raving Bots\Shaders\Water 2D Plain.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="JelloPoly2Tri">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/Murder Bot/Assets/Plugins/JelloPoly2Tri.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FC7FB621-5471-6249-94AA-EA7BCEED506B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
